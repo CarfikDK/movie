@@ -1,0 +1,12 @@
+User-agent: Googlebot
+#Забороняю пошуковому боту індексувати папки
+Disallow: /no-index/config
+Disallow: /no-index/functions
+Disallow: /no-index/img
+Disallow: /no-index/styles
+Disallow: /no-index/vendor
+#Забороняю пошуковому боту індексувати файл 404 похибки
+Disallow: /no-index/404.html
+#Забороняю пошуковому боту індексувати файл 404 похибки
+Disallow: /*.json$
+Disallow: /*.lock$
